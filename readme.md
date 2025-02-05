@@ -2,24 +2,30 @@
 
 ## 🌟 Introduction
 
-Welcome to the **Automation Playbook** repository! This project provides a structured, scalable, and efficient approach to automated testing using multiple technologies. Whether you're using **Node.js & TypeScript, Python, PHP**, or other languages, this repository will help you follow industry best practices.
+Welcome to the **Automation Playbook** repository! This project serves as a comprehensive guide for structuring, scaling, and optimizing automated testing across multiple technologies. It covers best practices, frameworks, and methodologies to help you build maintainable and efficient automation solutions.
 
-## 📌 Supported Technologies
+## 📌 Contents
 
-This repository includes best practices and guidelines for automation testing with different technologies. Choose the stack that fits your project:
+This repository includes in-depth guidelines and best practices for various aspects of automation testing:
 
-- 🔹 **[Node.js & TypeScript](./README-nodejs.md)** – A structured guide for automation using Node.js, TypeScript, and Playwright/WebdriverIO.
-- 🔹 **[Python](./README-python.md)** – Automation framework setup using Selenium/Pytest.
-- 🔹 **[PHP](./README-php.md)** – Automation strategies with Codeception/Behat.
-- 🔹 **In-Depth Page Object Model (POM) Guide** – Best practices for designing maintainable test automation frameworks.
-- 🔹 **In-Depth Test Data Management Guide** – How to structure, generate, and handle test data efficiently.
+- 🔹 **[Project Setup & Folder Structure](./project-setup.md)** – Standardized file and folder organization for automation frameworks.
+- 🔹 **[Best Practices for Automation](./best-practices.md)** – Core principles to enhance test efficiency, maintainability, and reliability.
+- 🔹 **[List of Test Automation Frameworks](./frameworks.md)** – Categorized frameworks by type and programming language.
+- 🔹 **[TypeScript](./typescript.md)** – Automation using Playwright/WebdriverIO.
+- 🔹 **[Python](./python.md)** – Automation framework setup using Selenium/Pytest.
+- 🔹 **[Java](./java.md)** – Automation using selenium/TestNg.
+- 🔹 **[PHP](./php.md)** – Automation strategies with Codeception/Behat.
+- 🔹 **[In-Depth Page Object Model (POM) Guide](./pom.md)** – Best practices for designing scalable and maintainable POM-based test automation.
+- 🔹 **[In-Depth Test Data Management Guide](./test-data.md)** – Strategies for structuring, generating, and handling test data efficiently.
+- 🔹 **[Error Handling & Logging](./error-handling.md)** – Effective logging and debugging techniques.
+- 🔹 **[Continuous Integration & Deployment (CI/CD)](./cicd.md)** – Automating test execution using GitHub Actions, Jenkins, and GitLab CI.
+- 🔹 **[Performance & Load Testing](./performance.md)** – Guidelines for stress testing and benchmarking application performance.
+- 🔹 **[Accessibility Testing](./accessibility.md)** – Ensuring WCAG accessibility standards.
+- 🔹 **[Security Testing](./security.md)** – Ensuring compliance with security.
 
-## 🎯 Key Features
+By following this playbook, you can build a **scalable, maintainable, and high-quality test automation framework** for your projects. 🚀
 
-✅ **Modular and Scalable** – Designed to support multiple technologies and frameworks.  
-✅ **Best Practices** – Follows clean code principles, structured test design, and efficient automation strategies.  
-✅ **CI/CD Integration** – Supports automated test execution with GitHub Actions, Jenkins, or GitLab CI/CD.  
-✅ **Extensive Documentation** – Detailed guides for setup, best practices, and troubleshooting.
+
 
 ## 🚀 Getting Started
 
