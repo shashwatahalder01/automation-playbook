@@ -22,6 +22,7 @@ This repository includes in-depth guidelines and best practices for various aspe
 - 🔹 **[Performance & Load Testing](./performance.md)** – Guidelines for stress testing and benchmarking application performance.
 - 🔹 **[Accessibility Testing](./accessibility.md)** – Ensuring WCAG accessibility standards.
 - 🔹 **[Security Testing](./security.md)** – Ensuring compliance with security.
+- 🔹 **[Git & Version Control](./security.md)** – Version control system widely used for tracking changes
 
 By following this playbook, you can build a **scalable, maintainable, and high-quality test automation framework** for your projects. 🚀
 
