@@ -30,6 +30,15 @@ This repository includes in-depth guidelines and best practices for various aspe
 - 🔹 **[Test Documentation Maintenance](./test-documentation-maintenance.md)** – Best practices for maintaining clear and comprehensive test documentation throughout the testing lifecycle.
 - 🔹 **[Bug Lifecycle Management](./bug-lifecycle-managemet.md)** – Manage the complete lifecycle of bugs from detection to resolution, ensuring smooth project progress.
 - 🔹 **[Test Lifecycle Management](./test-lifecycle-managemet.md)** – Efficient strategies for managing the entire test lifecycle, from planning to execution and post-test analysis.
+- 🔹 **[API & Microservices Testing](./api-microservices-testing.md)** – Comprehensive strategies for testing APIs and microservices, including contract testing, service virtualization, and mocking techniques.
+- 🔹 **[Infrastructure & Test Environment Management](./infrastructure-test-environment-management.md)** – Best practices for managing test environments dynamically, leveraging containers, and implementing Infrastructure-as-Code (IaC).
+- 🔹 **[Repository & Version Control Best Practices](./repository-version-control-best-practices.md)** – Effective Git branching strategies, repository management techniques, and handling large-scale test automation projects.
+- 🔹 **[AI & Machine Learning in Test Automation](./ai-machine-learning-in-test-automation.md)** – Exploring AI-driven test automation, self-healing frameworks, and AI-powered test case generation.
+- 🔹 **[Performance & Scalability Testing](./performance-scalability-testing.md)** – Automating performance tests, load testing strategies, and monitoring application performance trends in cloud environments.
+- 🔹 **[Integration with Other Tools](./integration-with-other-tools.md)** – Seamless integration of test automation with Jira, TestRail, ChatOps, and leveraging web scraping for testing.
+- 🔹 **[Bonus Topics in Test Automation](./bonus-topics.md)** – Advanced topics such as Chaos Engineering, codeless test automation, A/B testing, and blockchain-based application testing.
+
+
 
 By following this playbook, you can build a **scalable, maintainable, and high-quality test automation framework** for your projects. 🚀
 
