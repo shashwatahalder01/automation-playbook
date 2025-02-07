@@ -23,6 +23,13 @@ This repository includes in-depth guidelines and best practices for various aspe
 - 🔹 **[Accessibility Testing](./accessibility.md)** – Ensuring WCAG accessibility standards.
 - 🔹 **[Security Testing](./security-testing.md)** – Ensuring compliance with security.
 - 🔹 **[Git & Version Control](./git.md)** – Version control system widely used for tracking changes
+- 🔹 **[Advanced Test Automation](./advancd-test-automation.md)** – Dive deep into automated testing strategies, tools, and frameworks for robust test execution and efficiency.
+- 🔹 **[advanced Security Testing](./advanced-security-testing.md)** – Explore advanced techniques for identifying, preventing, and mitigating security vulnerabilities in applications.
+- 🔹 **[Agentic Automation](./agentic-automation.md)** – Learn about intelligent automation processes driven by AI and machine learning for adaptive testing and decision-making.
+- 🔹 **[Reporting Analysis](./reporting-analysis.md)** – Understand how to effectively analyze and visualize test results to drive actionable insights and improve quality.
+- 🔹 **[Test Documentation Maintenance](./test-documentation-maintenance.md)** – Best practices for maintaining clear and comprehensive test documentation throughout the testing lifecycle.
+- 🔹 **[Bug Lifecycle Management](./bug-lifecycle-managemet.md)** – Manage the complete lifecycle of bugs from detection to resolution, ensuring smooth project progress.
+- 🔹 **[Test Lifecycle Management](./test-lifecycle-managemet.md)** – Efficient strategies for managing the entire test lifecycle, from planning to execution and post-test analysis.
 
 By following this playbook, you can build a **scalable, maintainable, and high-quality test automation framework** for your projects. 🚀
 
