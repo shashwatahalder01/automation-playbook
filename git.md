@@ -93,30 +93,142 @@ A structured branching model with:
 
 A well-structured commit message improves collaboration, debugging, and automation. Follow the conventional commit format:
 
-```bash
+```
 <type>(<scope>): <subject>
 
-<body>
-
-<footer>
+<body>  # Optional
+<footer>  # Optional (e.g., references to issues, breaking changes)
 ```
 
 ### 🔹 **Types of Commits**
 
-| Type       | Purpose                                    |
-| ---------- | ------------------------------------------ |
-| `feat`     | Introduces a new feature                   |
-| `fix`      | Fixes a bug                                |
-| `docs`     | Documentation updates                      |
-| `style`    | Code formatting (no logic changes)         |
-| `refactor` | Code restructuring without feature changes |
-| `test`     | Adding or modifying tests                  |
-| `chore`    | Miscellaneous tasks like CI setup          |
+| Type      | Description                                         |
+|-----------|-----------------------------------------------------|
+| feat      | Introduces a new feature                           |
+| fix       | Fixes a bug                                        |
+| chore     | Maintenance tasks (e.g., build changes, tooling)   |
+| docs      | Updates documentation                             |
+| style     | Code style changes (e.g., formatting, no logic)   |
+| refactor  | Code restructuring without changing functionality |
+| perf      | Performance improvements                          |
+| test      | Adds or updates tests                             |
+| ci        | Continuous integration-related changes           |
+| build     | Changes affecting the build system or dependencies |
+| revert    | Reverts a previous commit                        |
 
-**Example:**
+### Commit Scope (Optional)
 
-```bash
-feat(auth): add Google OAuth login
+The scope specifies the part of the codebase affected, such as:
+
+```
+feat(auth): add JWT-based authentication
+fix(api): resolve CORS issue
+test(ui): add Cypress tests for login page
+```
+
+### Best Practices
+
+✅ Use the imperative mood: "Add feature" instead of "Added feature".  
+✅ Keep the subject line under 72 characters.  
+✅ Use present tense (e.g., "fix bug" instead of "fixed bug").  
+✅ Reference issues if needed: `fix(auth): resolve #123`.  
+✅ Avoid generic messages like "fixed issue".  
+
+---
+
+## ✅ Sample Commit Message Examples
+
+### 1. Initializing the Project
+```
+init: initialize project structure
+
+Set up initial directory structure with basic configuration files for the project.
+```
+
+### 2. Build & CI Setup
+```
+ci: add GitHub Actions for CI pipeline
+
+Configured GitHub Actions to run tests and deploy on push to main branch.
+```
+
+### 3. Make a Release
+```
+release: v1.0.0
+
+Initial release of the project with basic features and CI pipeline setup.
+```
+
+### 4. Add Features
+```
+feat(auth): implement JWT authentication
+
+Added JWT-based authentication for user login and token validation.
+```
+```
+feat(cart): add item quantity update functionality
+
+Users can now update the quantity of items in the shopping cart.
+```
+
+### 5. Fix Bugs
+```
+fix(ui): resolve login form validation bug
+
+Fixed an issue where the login form was incorrectly validating empty fields.
+```
+```
+fix(cart): correct price calculation when updating quantity
+
+Fixed a bug where the price was not recalculated correctly after updating item quantity.
+```
+
+### 6. Add Tests
+```
+test(auth): add unit tests for JWT token validation
+
+Created tests to ensure the JWT token validation logic works as expected.
+```
+```
+test(cart): add integration tests for cart item updates
+
+Added integration tests to verify the cart item update functionality.
+```
+
+### 7. Add ReadMe/Docs
+```
+docs(readme): update setup instructions
+
+Updated the README with clear setup and installation instructions.
+```
+```
+docs(api): add API documentation for user authentication
+
+Documented the endpoints and request/response formats for user authentication.
+```
+
+### 8. Refactor Code
+```
+refactor(auth): simplify JWT token generation
+
+Refactored the JWT token generation logic to make it more concise and efficient.
+```
+```
+refactor(cart): extract cart logic into separate service
+
+Moved the cart logic into a dedicated service for better code organization.
+```
+
+### 9. Improve Performance
+```
+perf(cart): optimize cart item update algorithm
+
+Improved the cart item update algorithm to reduce computation time for large carts.
+```
+```
+perf(api): enhance API response time for product list
+
+Optimized database queries to improve API response time when fetching product list.
 ```
 
 ---
